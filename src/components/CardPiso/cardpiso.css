@@ -1,0 +1,20 @@
+.card {
+  border: 1px solid black;
+  display: flex;
+  width: 80%;
+  max-width: 1300px;
+  margin-inline: auto;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: white;
+}
+
+.foto-card {
+  border: 1px solid black;
+  width: 50%;
+}
+
+.info-card {
+  border: 1px solid black;
+  width: 50%;
+}
