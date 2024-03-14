@@ -17,10 +17,10 @@
 }
 
 .texto-presentacion {
-  background-color: rgb(68, 114, 109);
   position: absolute;
-  color: white;
-  font-size: 100px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(60, 50, 50, 0.5);
+  font-size: 85px;
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);

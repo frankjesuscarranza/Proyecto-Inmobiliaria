@@ -1,20 +1,80 @@
 .card {
-  border: 1px solid black;
+  border-radius: 7px;
   display: flex;
-  width: 80%;
+  width: 100%;
   max-width: 1300px;
   margin-inline: auto;
   margin-top: 30px;
-  padding: 10px;
-  background-color: white;
+  padding: 6px;
 }
 
 .foto-card {
-  border: 1px solid black;
   width: 50%;
 }
 
 .info-card {
-  border: 1px solid black;
   width: 50%;
+  border-radius: 8px;
+  /* background-color: rgb(166, 195, 173); */
+  background-color: rgb(67, 113, 109);
+  color: rgb(244, 239, 239);
+}
+
+.title {
+  font-size: 2rem;
+  padding: 15px;
+}
+
+.logos {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.logos li {
+  padding: 1px;
+  text-align: center;
+  display: inline-block;
+  margin-inline-start: 40px;
+}
+
+.logos img {
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}
+
+.card-texto {
+  justify-content: center;
+  padding: 10px;
+}
+
+.card-contacto {
+  display: flex;
+  margin-top: auto;
+
+  padding: 20px;
+  height: 20%;
+}
+
+.btn-contacto {
+  margin: auto;
+  cursor: pointe r;
+  padding: 1px;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(16, 54, 30);
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-contacto img {
+  background-color: rgb(16, 54, 30);
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  margin-left: 5px;
 }

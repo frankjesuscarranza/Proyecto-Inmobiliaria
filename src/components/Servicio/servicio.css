@@ -1,0 +1,32 @@
+.contenedor-servicio {
+  margin: auto;
+  margin-bottom: 20px;
+  height: 320px;
+  width: 398px;
+}
+
+.servicio-imagen {
+  margin: auto;
+  padding: 13px;
+  width: 120px;
+  height: 120px;
+}
+
+.servicio-titulo {
+  font-weight: bold;
+  color: rgb(37, 77, 83);
+
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.servicio-descripcion {
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+  text-justify: auto;
+  text-align: center;
+  align-items: center;
+}

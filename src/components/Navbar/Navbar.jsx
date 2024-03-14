@@ -1,22 +1,32 @@
 import "./navbar.css";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import Nuestrospisos from "../../pages/Nuestrospisos";
+import Serviciospremium from "../../pages/Serviciospremium";
+import Contacto from "../../pages/Contacto";
 function Navbar() {
   return (
-    <nav className="stroke">
-      <ul>
-        <li>
-          <a href="#">Pisos</a>
-        </li>
-        <li>
-          <a href="#">Servicios</a>
-        </li>
-        <li>
-          <a href="#">Publica tu Piso</a>
-        </li>
-        <li>
-          <a href="#">Contacto</a>
-        </li>
-      </ul>
-    </nav>
+    <Router>
+      <nav className="stroke">
+        <ul>
+          <li>
+            <Link to="/">Nuestros Pisos</Link>
+          </li>
+          <li>
+            <Link to="/servicios">Servicios</Link>
+          </li>
+          <li>
+            <Link to="/contacto">Contacto</Link>
+          </li>
+        </ul>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Nuestrospisos />} />
+        <Route path="/servicios" element={<Serviciospremium />} />
+        <Route path="/contacto" element={<Contacto />} />
+      </Routes>
+    </Router>
   );
 }
 
